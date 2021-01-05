@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/KYJboda/static/css/main.646ebe78.chunk.css",
+    "main.css": "/KYJboda/static/css/main.d98b34f2.chunk.css",
     "main.js": "/KYJboda/static/js/main.60723cb5.chunk.js",
     "main.js.map": "/KYJboda/static/js/main.60723cb5.chunk.js.map",
     "runtime-main.js": "/KYJboda/static/js/runtime-main.91b40a44.js",
@@ -10,19 +10,19 @@
     "static/js/2.561b1e6a.chunk.js.map": "/KYJboda/static/js/2.561b1e6a.chunk.js.map",
     "index.html": "/KYJboda/index.html",
     "static/css/2.b57b7cfd.chunk.css.map": "/KYJboda/static/css/2.b57b7cfd.chunk.css.map",
-    "static/css/main.646ebe78.chunk.css.map": "/KYJboda/static/css/main.646ebe78.chunk.css.map",
+    "static/css/main.d98b34f2.chunk.css.map": "/KYJboda/static/css/main.d98b34f2.chunk.css.map",
     "static/js/2.561b1e6a.chunk.js.LICENSE.txt": "/KYJboda/static/js/2.561b1e6a.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/KYJboda/static/media/backgrounLanding.837897a8.jpeg",
     "static/media/imagen1.e1823959.jpg": "/KYJboda/static/media/imagen1.e1823959.jpg",
     "static/media/kyj1.de49ab7e.png": "/KYJboda/static/media/kyj1.de49ab7e.png",
     "static/media/kyj2.b1ab235c.png": "/KYJboda/static/media/kyj2.b1ab235c.png",
-    "static/media/kyj3.60e19f22.png": "/KYJboda/static/media/kyj3.60e19f22.png"
+    "static/media/kyj3.60e19f22.png": "/KYJboda/static/media/kyj3.60e19f22.png",
+    "static/media/App.css": "/KYJboda/static/media/new.2974d029.jpeg"
   },
   "entrypoints": [
     "static/js/runtime-main.91b40a44.js",
     "static/css/2.b57b7cfd.chunk.css",
     "static/js/2.561b1e6a.chunk.js",
-    "static/css/main.646ebe78.chunk.css",
+    "static/css/main.d98b34f2.chunk.css",
     "static/js/main.60723cb5.chunk.js"
   ]
 }
