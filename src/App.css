@@ -1,38 +1,348 @@
-.App {
-  text-align: center;
+body{
+    width: 100%;
+    height: 100%;
+    background: #1C2439;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1{
+    font-family: 'Dancing Script', cursive;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 77px;
+    color: #FFFFFF;
+    text-align: center;
+    z-index: 1;
+    
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+@media only screen and (max-device-width: 700px) {
+    h1{
+        font-family: 'Dancing Script', cursive;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 50px;
+        line-height: 77px;
+        color: #FFFFFF;
+        text-align: center;
+        z-index: 1;
+    }
+    
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+h2{
+    font-family: 'Comfortaa', cursive;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 33px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 0%;
+    z-index: 1;
 }
 
-.App-link {
-  color: #61dafb;
+p{
+    font-family: Comfortaa;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    z-index: 1;
+    
+    color: #FFFFFF;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+a{
+    text-decoration: none
+}
+
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border:0;
+    padding: 1%;
+    background: #D17C55;
+    font-family: Comfortaa;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 27px;
+    color: #FFFFFF;
+    border:0;
+}
+
+.init{
+    position: absolute;
+    width: 100%;
+    height: 650px;
+    left: 0;
+    top: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+
+    background-image: url(backgrounLanding.jpeg);
+    background-position: center;
+    background-size: 100%;
+    background-position-x: 0;
+    background-repeat: no-repeat;
+}
+
+.date{
+    position: absolute;
+    width: 500px;
+    height: 130px;
+    top:70%;
+
+    background: rgba(209, 124, 85, 0.65);
+    border-radius: 10px;
+    opacity: 0.85;
+}
+@media only screen and (max-device-width: 700px) {
+    .date{
+        width: 100%;
+    }
+    
+}
+.time{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    top:650px;
+    width: 100%;
+    height: 283px;
+    left: 0px;
+    background: #000000;
+}
+
+.sunFlowerTimer{
+    position: absolute;
+    right: 5%;
+}
+
+.sunFlowerPlaceF{
+    position: absolute;
+    left: 5%;
+    top:5%;
+}
+
+.place{
+    position: absolute;
+    top:933px;
+    width: 100%;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+ 
+.place .inf{
+    width:383px;
+    font-size:20px;
+    text-align: center;
+    line-height: 25px;
+}
+@media only screen and (max-device-width: 700px) {
+    .place .inf{
+        width:85%;
+    }
+
+}
+
+.place .map{
+    width: 130px;
+    height: 50px;
+}
+
+.linePlace{
+    margin-top: 0%;
+    width: 291px;
+    height: 2px;
+    background: #FFFFFF;
+    border-radius: 50px;
+    transform: matrix(1, 0, 0, -1, 0, 0);
+    z-index: 1;
+}
+
+.lineAct{
+    margin-top: 0%;
+    width: 469px;
+    height: 2px;
+    background: #FFFFFF;
+    border-radius: 50px;
+    transform: matrix(1, 0, 0, -1, 0, 0); 
+    z-index: 1;
+}
+@media only screen and (max-device-width: 700px) {
+    .lineAct{
+        width: 85%;
+        z-index: 1;
+    }
+    
+    
+}
+
+.lineGift{
+    margin-top: 0%;
+    width: 286px;
+    height: 2px;
+    background: #FFFFFF;
+    border-radius: 50px;
+    transform: matrix(1, 0, 0, -1, 0, 0);
+    z-index: 1;
+}
+
+.place img{
+    margin-top: 30px;
+    height: 361px;
+}
+@media only screen and (max-device-width: 700px) {
+    .place img{
+        width: 85%;
+        height: auto;
+    }
+    
+}
+
+.place .gift{
+    margin-top: 50px;
+    width: 257px;
+    height: 50px;
+}
+
+.about{
+    position: absolute;
+    top:2200px;
+    width: 100%;
+    height: 576px;
+    left: 0;
+    background: #000000;
+    display: flex;
+    align-items: center;
+    flex-direction: unset;
+}
+@media only screen and (max-device-width: 700px) {
+    .about{
+        position: absolute;
+        top:2200px;
+        width: 100%;
+        height: 620px;
+        left: 0;
+        background: #000000;
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+
+.about .slide-container{
+    
+    width: 50%;
+    margin-left:2%;
+}
+@media only screen and (max-device-width: 700px) {
+    .about .slide-container{
+        width: 80%;
+        margin-left:0%;
+        margin-top: 5%;
+    }
+    
+}
+
+.about img{
+    width: 100%;
+}
+
+.about p{
+    position: absolute;
+    left: 55%;
+    font-family: Comfortaa;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 29px;
+    width: 35%;
+    right: 5%;
+    color: #F2DDBB;
+}
+@media only screen and (max-device-width: 700px) {
+    .about p{
+        position: unset;
+        left: 0%;
+        font-family: Comfortaa;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 29px;
+        width: 85%;
+        right: 0%;
+        color: #F2DDBB;
+        
+    }
+    
+}
+
+.sunFlowerPlaceS{
+    position: absolute;
+    right: 5%;
+    top:44%;
+}
+
+.sunFlowerPlaceT{
+    position: absolute;
+    left: 5%;
+    top:85%;
+}
+
+@media only screen and (max-device-width: 700px) {
+    .sunFlowerPlaceT{
+        position: absolute;
+        left: 5%;
+        top:100%;
+        height: 50px;
+    }
+
+}
+
+.contact{
+    position: absolute;
+    top:2820px;
+    width: 100%;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 70%;
+    margin-top: 50px;
+}
+.icons button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75px;
+    height: 75px;
+    margin-bottom: 10%;
+}
+.sunFlowerContact{
+    position: absolute;
+    left: 5%;
+    top:100%;
+}
+.sunFlowerAbout{
+    position: absolute;
+    right: 5%;
+    top:90%;
 }
