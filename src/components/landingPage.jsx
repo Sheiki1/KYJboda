@@ -8,7 +8,7 @@ const  LandingPage =() =>{
                 <h1>Karen & Jorge</h1>
                 <div className="date">
                     <h2>La boda será el:</h2>
-                    <h2>Sabado, 26 de Marzo del 2021</h2>
+                    <h2>Viernes, 26 de Marzo del 2021</h2>
                 </div>
             </div>
         </Fragment>

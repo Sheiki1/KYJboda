@@ -1,15 +1,39 @@
 import React, { Fragment }  from "react"
 import { Fade } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css'
-import img1 from "./kyj1.jpg";
+import img1 from "./kyj1.png";
 import img2 from "./kyj2.png";
 import img3 from "./kyj3.png";
+import img4 from "./kyj4.png";
+import img5 from "./kyj5.png";
+import img6 from "./kyj6.png";
+import img7 from "./kyj7.png";
+import img8 from "./kyj8.png";
+import img9 from "./kyj9.png";
+import img10 from "./kyj10.png";
+import img11 from "./kyj11.png";
+import img12 from "./kyj12.png";
+import img13 from "./kyj13.png";
+import img14 from "./kyj14.png";
+import img15 from "./kyj15.png";
 
 const  About =() =>{
     const fadeImages = [
         img1,
         img2,
-        img3
+        img3,
+        img4,
+        img5,
+        img6,
+        img7,
+        img8,
+        img9,
+        img10,
+        img11,
+        img12,
+        img13,
+        img14,
+        img15
       ];
     return(
         <Fragment>
@@ -25,9 +49,44 @@ const  About =() =>{
                         <div className="each-fade">
                             <img src={fadeImages[2]} alt='home'/>
                         </div>
+                        <div className="each-fade">
+                            <img src={fadeImages[3]} alt='home'/>
+                        </div>
+                        <div className="each-fade">
+                            <img src={fadeImages[4]} alt='home'/>
+                        </div>
+                        <div className="each-fade">
+                            <img src={fadeImages[5] } alt='people' />
+                        </div>
+                        <div className="each-fade">
+                            <img src={fadeImages[6]} alt='chat'/>
+                        </div>
+                        <div className="each-fade">
+                            <img src={fadeImages[7]} alt='home'/>
+                        </div>
+                        <div className="each-fade">
+                            <img src={fadeImages[8]} alt='home'/>
+                        </div>
+                        <div className="each-fade">
+                            <img src={fadeImages[9]} alt='home'/>
+                        </div>
+                        <div className="each-fade">
+                            <img src={fadeImages[10] } alt='people' />
+                        </div>
+                        <div className="each-fade">
+                            <img src={fadeImages[11]} alt='chat'/>
+                        </div>
+                        <div className="each-fade">
+                            <img src={fadeImages[12]} alt='home'/>
+                        </div>
+                        <div className="each-fade">
+                            <img src={fadeImages[13]} alt='home'/>
+                        </div>
+                        <div className="each-fade">
+                            <img src={fadeImages[14]} alt='home'/>
+                        </div>
                     </Fade>
                 </div>
-                <p>Nosotros nos conocimos en una etapa super chida y pues ahora nos vamos a casar y pues estaremos mas que contentos de contar con tu  presencia en la boda obvio con sana distancia y con su respectivo regalo de liverpool jajaja eso no , pero hasta entonces chao</p>
                 <div className="sunFlowerAbout">
                     <svg width="100" height="100" viewBox="0 0 186 186" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M92.8217 24.133C95.2269 19.623 99.421 15.2873 103.787 11.5931C101.389 7.69503 98.9925 4.36619 97.5008 2.47301C96.2435 0.87857 94.6447 0 93.0005 0C91.3555 0 89.7575 0.87857 88.5002 2.47301C86.9748 4.41127 84.5037 7.85381 82.0515 11.8679C86.3424 15.492 90.4412 19.7245 92.8217 24.133Z" fill="#FFC525"/>

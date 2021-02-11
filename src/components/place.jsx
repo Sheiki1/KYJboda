@@ -1,5 +1,5 @@
 import React, { Fragment }  from "react"
-import imagen1 from "./imagen1.jpg"
+
 const  Place =() =>{
 
     return(
@@ -42,7 +42,7 @@ const  Place =() =>{
                         </clipPath>
                     </defs>
                 </svg>
-            <p>Salon de eventos</p>
+            <p>Salon Antares</p>
             <p className="inf">Paseo del Bosque S/N, Bosques de Morelos, 54760 Cuautitlán Izcalli, Méx.</p>
             <a href="https://www.google.com/maps/place/Antares/@19.6277597,-99.2357021,17z/data=!3m1!4b1!4m5!3m4!1s0x85d21e7d455930e9:0xa74f7698d9cc400!8m2!3d19.6277597!4d-99.2335134?hl=es" >
                 <button className="map" type="button" >Mapa</button>
@@ -51,6 +51,7 @@ const  Place =() =>{
             <p>18:00 hrs</p>
             <h2>Horario de actividades</h2>
             <div className="lineAct"></div>
+            <div className="schedule"></div>
             <div className="sunFlowerPlaceS">
                     <svg width="100" height="100" viewBox="0 0 186 186" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M92.8217 24.133C95.2269 19.623 99.421 15.2873 103.787 11.5931C101.389 7.69503 98.9925 4.36619 97.5008 2.47301C96.2435 0.87857 94.6447 0 93.0005 0C91.3555 0 89.7575 0.87857 88.5002 2.47301C86.9748 4.41127 84.5037 7.85381 82.0515 11.8679C86.3424 15.492 90.4412 19.7245 92.8217 24.133Z" fill="#FFC525"/>
@@ -73,7 +74,7 @@ const  Place =() =>{
                     </svg>
                 </div>
             <br></br>
-            <img src={imagen1}/>
+            
             <h2>Mesa de regalos</h2>
             <div className="lineGift"></div>
             <div className="sunFlowerPlaceT">
